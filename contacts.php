@@ -61,7 +61,7 @@ header("Content-Type: application/json; charset=UTF-8");
             //$product->id = $db->lastInsertId();
 
             // The result of the 'create' operation is all inserted products
-            $result[] = $product;
+            $result[] = $person;
         }
            echo json_encode($result);
     } 
